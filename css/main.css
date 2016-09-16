@@ -1,0 +1,30 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+	text-align: center;
+}
+.circle{
+	width: 126px;
+    height: 180px;
+    border: 2px solid black;
+    display: inline-block;
+    -moz-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    -webkit-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    margin: 5%;
+}
+.primero{
+	background-color: red;
+}
+.segundo{
+	background-color: blue;
+}
+.tercero{
+	background-color: yellow;
+}
+form{
+	text-align: center;
+}
